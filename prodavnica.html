@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐝 Pčelinjak C&D - Prodavnica 🐝</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <style>
+        .main-card {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .card {
+            width: 70%;
+            border: none;
+            margin: 40px auto 30px auto;
+            padding: 10px;
+        }
+
+        .card img {
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card h2 {
+            margin: 5px auto;
+            text-align: center;
+            color: #543310;
+            font-family: "Poetsen One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .card p {
+            text-align: justify;
+            margin: 10px auto;
+            padding: 5px 30px;
+            color: #543310;
+            font-family: "Poetsen One", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }  
+        
+        #cena {
+            text-align: center;
+            width: 60%;
+            border: 3px solid #543310;
+            border-radius: 10px;
+            padding: 20px 0px;
+        }
+
+        @media (max-width:800px) {
+            .main-card {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img src="./Assets/Pictures/logo C&D.png" id="logo" alt="logo of beekeeper">
+        <ul>
+            <li><a href="./index.html">Početna</a></li>
+            <li><a href="./prodavnica.html">Prodavnica</a></li>
+            <li><a href="./galerija.html">Galerija</a></li>
+            <li><a href="./kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+
+    <div class="naslov">
+        <span>PRODAVNICA</span>
+    </div>
+
+    <div class="main-card">
+        <div class="card">
+            <img src="./Assets/Pictures/bagremov-med.jpeg" alt="History of homestad">
+            <h2>Bagremov med</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                it to make a type specimen book.</p>
+            <p id="cena">1200 dinara</p>
+        </div>
+
+        <div class="card">
+            <img src="./Assets/Pictures/med-orah.jpeg" alt="History of homestad">
+            <h2>Med i orah</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                it to make a type specimen book.</p>
+            <p id="cena">800 dinara</p>
+        </div>
+
+        <div class="card">
+            <img src="./Assets/Pictures/med-sace.JPG" alt="History of homestad">
+            <h2>Med sa saćem</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                it to make a type specimen book.</p>
+            <p id="cena">1500 dinara</p>
+        </div>
+
+        <div class="card">
+            <img src="./Assets/Pictures/medovaca.jpeg" alt="History of homestad">
+            <h2>Medovača</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                it to make a type specimen book.</p>
+            <p id="cena">1200 dinara</p>
+        </div>
+
+        <div class="card">
+            <img src="./Assets/Pictures/satni-poklopci.JPG" alt="History of homestad">
+            <h2>Med sa satnim poklopcima</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                it to make a type specimen book.</p>
+            <p id="cena">1500 dinara</p>
+        </div>
+        <div class="card">
+            <img src="./Assets/Pictures/propolis.jpeg" alt="History of homestad">
+            <h2>Propolis</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                it to make a type specimen book.</p>
+            <p id="cena">300 dinara</p>
+        </div>
+
+    </div>
+
+    <footer>Created by C&D</footer>
+</body>
+</html>
